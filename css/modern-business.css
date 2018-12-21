@@ -27,3 +27,8 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+#logo-titulo {
+  width: 42px;
+  height: 42px;
+}
