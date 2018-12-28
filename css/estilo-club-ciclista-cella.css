@@ -1,9 +1,11 @@
+
 /*!
  * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 
+/* INDEX  y FOOTER COMÚN */
 body {
   padding-top: 54px;
 }
@@ -14,6 +16,7 @@ body {
   }
 }
 
+/* Formatodel carrusel de fotos */
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -24,11 +27,144 @@ body {
   background-size: cover;
 }
 
+div.carrusel-1 {
+  background-image: url(../img/carrusel1.jpg);
+}
+
+div.carrusel-2 {
+  background-image: url(../img/carrusel2.jpg);
+}
+
+div.carrusel-3 {
+  background-image: url(../img/carrusel3.jpg);
+}
+
+div.carrusel-4 {
+  background-image: url(../img/carrusel4.jpg);
+}
+
+/* Margen entre eventos */
 .portfolio-item {
   margin-bottom: 30px;
 }
 
+/* Logo portada */
 #logo-titulo {
   width: 42px;
   height: 42px;
+}
+
+/* Botón arriba */
+a.boton-arriba {
+  color: transparent;
+}
+
+/* Footer */ 
+.footer-dark {
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.85;
+}
+
+a.facebook:hover {
+  background-color: #3b5ea5; /* Facebook teniendo en cuenta fondo*/
+}/*color de fondo:#353A40*/
+
+a.twitter:hover {
+  background-color: #00acee; /* Twitter */
+}
+
+a.email:hover {
+  background-color: #DEC32C; /* Mail */
+}
+
+a.youtube:hover {
+  background-color: #c4302b; /* YouTube */
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0;
+  opacity: 0.7
+}
+
+
+
+/* EVENTOS */
+body {/*Repetido*/
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {/*Repetido*/
+  body {
+    padding-top: 56px;
+  }
+}
+
+.portfolio-item {/*Repetido*/
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+
+
+
+/* GALERÍA */
+body {/*Repetido*/
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {/*Repetido*/
+  body {
+    padding-top: 56px;
+  }
+}
+
+
+
+/* SOCIOS */
+body {/*Repetido*/
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {/*Repetido*/
+  body {
+    padding-top: 56px;
+  }
 }
