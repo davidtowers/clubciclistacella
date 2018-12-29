@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Club Ciclista Cella</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +19,9 @@
     <!-- Icono pestaña y favoritos -->    
     <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon"/>
 
+    <!-- Link para el Footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
   </head>
 
   <body>
@@ -26,7 +29,6 @@
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-         
         <a class="navbar-brand" href="index.html">
            <img class="img-responsive" id="logo-titulo" src="img/favicon.jpg"> Club Ciclista Cella</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,59 +37,23 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="historia.html">Historia</a>
+              <a class="nav-link active" href="historia.html">Historia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Rutas y vueltas</a>
+              <a class="nav-link" href="eventos.html">Eventos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Galería</a>
+              <a class="nav-link" href="galeria.html">Galería</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Socios</a>
+              <a class="nav-link" href="socios.html">Socios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Patrocinadores</a>
+              <a class="nav-link" href="patrocinadores.html">Patrocinadores</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contactar.html">Contactar</a>
             </li>
-            <!--
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Portfolio
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Blog
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-                <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Other Pages
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-                <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-                <a class="dropdown-item" href="faq.html">FAQ</a>
-                <a class="dropdown-item" href="404.html">404</a>
-                <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-              </div>
-            </li>
-          -->
           </ul>
         </div>
       </div>
@@ -195,13 +161,26 @@
     </div>
     <!-- /.container -->
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
+    <!-- Footer -->    
+    <footer class="py-5 bg-dark footer-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+          <div class="row">
+            <div class="col item social">
+            <a class="facebook" href="https://www.facebook.com/cciclista.fuentedecella"><i class="icon ion-social-facebook"></i></a>
+            <a class="twitter" href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a>
+            <a class="email" href="contactar.html"><i class="icon ion-email"></i></a>
+            <a class="youtube" href="https://www.youtube.com/watch?v=89Yx7FWQbrw"><i class="icon ion-social-youtube"></i></a>
+            </div>
+          </div>
+          <br>
+          <div>
+          <p class="m-0 text-center text-white copyright">Copyright &copy; Club Ciclista Cella 2018 | Designed With by 
+              <a href="https://www.google.com/search?q=David+torres&oq=David+to&aqs=chrome.0.69i59j0j69i61l2j69i57j69i61.1806j0j7&sourceid=chrome&ie=UTF-8">David Torres</a>
+            </p>
+        </div>
       </div>
-      <!-- /.container -->
     </footer>
+    <!-- /.footer -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
