@@ -15,7 +15,6 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Estilos customizados para el sitio -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" rel="stylesheet">
     <link href="css/estilo-club-ciclista-cella.css" rel="stylesheet">
 
     <!-- Icono pestaña y favoritos -->    
@@ -27,6 +26,7 @@
   </head>
 
   <body>
+
     <!-- Navegación -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -49,7 +49,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="galeria.html">Galería</a>
+              <a class="nav-link" href="galeria.html">Galería</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="socios.html">Socios</a>
@@ -58,7 +58,7 @@
               <a class="nav-link" href="patrocinadores.html">Patrocinadores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contactar.html">Contactar</a>
+              <a class="nav-link active" href="contactar.html">Contactar</a>
             </li>
           </ul>
         </div>
@@ -68,86 +68,85 @@
     <!-- Contenido de la página -->
     <div class="container">
 
-      <h1 class="mt-4 mb-3">Galería
-        <small>Destacada</small>
-      </h1>
-
+      <!-- Cabecera de página -->
+      <h1 class="mt-4 mb-3">Contactar</h1>
+      <!-- Contexto -->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.html">Inicio</a>
         </li>
-        <li class="breadcrumb-item active">Galería</li>
+        <li class="breadcrumb-item active">Contactar</li>
       </ol>
 
-      <div class="tz-gallery">
-          <div class="row mb-3">
-            <div class="col-md-3">
-              <!-- href es para el paginado y src para la vista previa -->
-              <a class="lightbox" href="img/destacada-0.jpg">
-                <img src="img/destacada-0.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>    
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-1.jpg">
-                <img src="img/destacada-1.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>              
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-2.jpg">
-                <img src="img/destacada-2.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-3.jpg">
-                <img src="img/destacada-3.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
+      <!-- Contenido de fila -->
+      <div class="row">
+        <!-- Mapeo de columna -->
+        <div class="col-lg-8 mb-4">
+          <!-- Mapa de Google embebido -->
+          <div class="mapa">
+            <iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Calle%20S%C3%A1nchez%20de%20Motos%2C%2064%2C%2044370%20Cella%2C%20Teruel+(Encuentranos)&amp;ie=UTF8&amp;t=&amp;z=6&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/"></a></iframe>
           </div>
-          <div class="row mb-3">
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-4.jpg">
-                <img src="img/destacada-4.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>    
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-5.jpg">
-                <img src="img/destacada-5.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>              
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-6.jpg">
-                <img src="img/destacada-6.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-7.jpg">
-                <img src="img/destacada-7.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-8.jpg">
-                <img src="img/destacada-8.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>    
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-9.jpg">
-                <img src="img/destacada-9.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>              
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-10.jpg">
-                <img src="img/destacada-10.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-11.jpg">
-                <img src="img/destacada-11.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-          </div>
+        </div>
+        <!-- Columna de detalles de contacto -->
+        <div class="col-lg-4 mb-4">
+          <h3>Detalles de contacto</h3>
+          <p>
+            Calle Sánchez de Motos, 64
+            <br>Cella, Teruel 44370
+            <br>
+          </p>
+          <p>
+            <abbr title="Phone">Telf</abbr>: 666 66 66 66
+          </p>
+          <p>
+            <abbr title="Email">Correo</abbr>:
+            <a href="mailto:name@example.com">clubciclistacella@cccella.com
+            </a>
+          </p>
+          <p>
+            <abbr title="Hours">Horario de atención</abbr>: Lunes - Viernes: 9:00 AM hasta 5:00 PM
+          </p>
+        </div>
       </div>
+      <!-- /.row -->
+
+      <!-- Contactar formulario -->
+      <div class="row">
+        <div class="col-lg-8 mb-4">
+          <h3>Manda un mensaje</h3>
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Nombre completo:</label>
+                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Número de teléfono:</label>
+                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Dirección de correo electrónico:</label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Mensaje:</label>
+                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+              </div>
+            </div>
+            <div id="success"></div>
+            <!-- For success/fail messages -->
+            <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+      <!-- /.row -->
     </div>
     <!-- /.container -->
 
@@ -185,10 +184,12 @@
     <!-- Bootstrap núcleo JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Galeria JavaScript (BaguetteBox) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-    <script src="js/galeria.js"></script>
-    
+
+    <!-- JavaScript para validación de contactar -->
+    <!-- No edite estos archivos! Con el fin de establecer la dirección de correo electrónico y el asunto de los formularios de contacto ir al archivo bin / contact_me.php. -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
   </body>
 
 </html>

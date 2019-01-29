@@ -15,18 +15,20 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Estilos customizados para el sitio -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" rel="stylesheet">
+    <link href="css/round-about.css" rel="stylesheet">
     <link href="css/estilo-club-ciclista-cella.css" rel="stylesheet">
 
     <!-- Icono pestaña y favoritos -->    
     <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon"/>
 
     <!-- Link para el Footer -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">     
 
   </head>
 
+
   <body>
+
     <!-- Navegación -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -49,10 +51,10 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="galeria.html">Galería</a>
+              <a class="nav-link" href="galeria.html">Galería</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="socios.html">Socios</a>
+              <a class="nav-link active" href="socios.html">Socios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="patrocinadores.html">Patrocinadores</a>
@@ -68,85 +70,45 @@
     <!-- Contenido de la página -->
     <div class="container">
 
-      <h1 class="mt-4 mb-3">Galería
-        <small>Destacada</small>
-      </h1>
+      <!-- Cabecera de página -->
+      <h1 class="mt-4 mb-3">Socios</h1>
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.html">Inicio</a>
         </li>
-        <li class="breadcrumb-item active">Galería</li>
+        <li class="breadcrumb-item active">Socios</li>
       </ol>
 
-      <div class="tz-gallery">
-          <div class="row mb-3">
-            <div class="col-md-3">
-              <!-- href es para el paginado y src para la vista previa -->
-              <a class="lightbox" href="img/destacada-0.jpg">
-                <img src="img/destacada-0.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>    
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-1.jpg">
-                <img src="img/destacada-1.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>              
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-2.jpg">
-                <img src="img/destacada-2.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-3.jpg">
-                <img src="img/destacada-3.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-4.jpg">
-                <img src="img/destacada-4.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>    
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-5.jpg">
-                <img src="img/destacada-5.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>              
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-6.jpg">
-                <img src="img/destacada-6.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-7.jpg">
-                <img src="img/destacada-7.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-8.jpg">
-                <img src="img/destacada-8.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>    
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-9.jpg">
-                <img src="img/destacada-9.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>              
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-10.jpg">
-                <img src="img/destacada-10.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-11.jpg">
-                <img src="img/destacada-11.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-          </div>
+      <!-- Introducción -->
+      <p>En la actualidad, el Club Ciclista de Cella cuenta con cerca de 60 socios. Fue en el año 2016 cuando el club alcanzó su mayor número de socios llegando a ser 70 socios. Si aún no eres socio del club, no dudes en apuntarte contactando con nosotros en el apartado de contacto.</p>
+
+      <!-- Fila de socios -->
+      <div class="row" id="socios">
+        <div class="col-lg-12">
+          <h2 class="my-4">Listado</h2>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="img/socio.jpg" alt="">
+          <h3>Alberto Contador Velasco
+            <small>Presidente</small>
+          </h3>
+          <p>Alberto Contador Velasco preside el club desde el año 2016 y socio desde 2013.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="img/socio.jpg" alt="">
+          <h3>Alejandro Valverde Belmonte
+            <small>Secretario</small>
+          </h3>
+          <p>Valverde está al mando de la dirección desde el año 2016. Forma parte del club desde el año 2012.</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 text-center mb-4">
+          <img class="rounded-circle img-fluid d-block mx-auto" src="img/socio.jpg" alt="">
+          <h3>Luis Bárcenas Gutiérrez
+            <small>Tesorero</small>
+          </h3>
+          <p>Desde el pasado 2018, Luis F. Bárcenas está al frente de la tesorería del club. Forma parte del club desde 2018.</p>
+        </div>
       </div>
     </div>
     <!-- /.container -->
@@ -181,14 +143,15 @@
     </footer>
     <!-- /.footer -->
 
-    <!-- JAVASCRIPT -->
-    <!-- Bootstrap núcleo JavaScript -->
+  	<!-- JAVASCRIPT -->
+  	<!-- Libreria JS personalizada y de Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+    <script src="js/socios.js"></script>
+    <script type="text/javascript"> cargarSocios(); </script>
+    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Galeria JavaScript (BaguetteBox) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-    <script src="js/galeria.js"></script>
-    
+
   </body>
 
 </html>

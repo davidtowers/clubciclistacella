@@ -15,7 +15,6 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Estilos customizados para el sitio -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" rel="stylesheet">
     <link href="css/estilo-club-ciclista-cella.css" rel="stylesheet">
 
     <!-- Icono pestaña y favoritos -->    
@@ -27,6 +26,7 @@
   </head>
 
   <body>
+
     <!-- Navegación -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -42,14 +42,14 @@
               <a class="nav-link" href="historia.html">Historia</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eventos</a>
+              <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eventos</a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
                 <a class="dropdown-item" href="rutas.html">Rutas</a>
-                <a class="dropdown-item" href="salidas.html">Salidas</a>
+                <a class="dropdown-item active" href="salidas.html">Salidas</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="galeria.html">Galería</a>
+              <a class="nav-link" href="galeria.html">Galería</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="socios.html">Socios</a>
@@ -68,88 +68,111 @@
     <!-- Contenido de la página -->
     <div class="container">
 
-      <h1 class="mt-4 mb-3">Galería
-        <small>Destacada</small>
+      <!-- Cabecera de página -->
+      <h1 class="mt-4 mb-3">Salidas
+        <small>Informales</small>
       </h1>
 
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="index.html">Inicio</a>
         </li>
-        <li class="breadcrumb-item active">Galería</li>
+        <li class="breadcrumb-item active">Salidas</li>
       </ol>
 
-      <div class="tz-gallery">
-          <div class="row mb-3">
-            <div class="col-md-3">
-              <!-- href es para el paginado y src para la vista previa -->
-              <a class="lightbox" href="img/destacada-0.jpg">
-                <img src="img/destacada-0.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>    
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-1.jpg">
-                <img src="img/destacada-1.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>              
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-2.jpg">
-                <img src="img/destacada-2.jpg" alt="Park" class="card-img-top">
-              </a>
+      <!-- Entradas del blog -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="img-fluid rounded" src="img/salida-cella-albarracin.JPG" alt="Miniatura ruta Cella - Albarracín">
             </div>
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-3.jpg">
-                <img src="img/destacada-3.jpg" alt="Park" class="card-img-top">
-              </a>
+            <div class="col-lg-6">
+              <h2 class="card-title">Cella - Albarracín</h2>
+              <p class="card-text">
+                <strong>Fecha </strong>20/01/2019<br>
+                <strong>Hora </strong>9 h<br>
+                <strong>Lugar </strong>Cella (Plaza Mayor)<br>
+                <strong>Distancia </strong>29,7 Km (ida)<br>
+                <strong>Dificultad </strong>Media<br>
+                <strong>Duración </strong>2 h 20 min (ida)<br>
+                <strong>Disciplina </strong>Montaña<br>
+              </p>
+              <a href="salida-cella-albarracin.html" class="btn btn-primary">Leer más&rarr;</a>
             </div>
           </div>
-          <div class="row mb-3">
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-4.jpg">
-                <img src="img/destacada-4.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>    
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-5.jpg">
-                <img src="img/destacada-5.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>              
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-6.jpg">
-                <img src="img/destacada-6.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-7.jpg">
-                <img src="img/destacada-7.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-          </div>
-          <div class="row mb-3">
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-8.jpg">
-                <img src="img/destacada-8.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>    
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-9.jpg">
-                <img src="img/destacada-9.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>              
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-10.jpg">
-                <img src="img/destacada-10.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a class="lightbox" href="img/destacada-11.jpg">
-                <img src="img/destacada-11.jpg" alt="Park" class="card-img-top">
-              </a>
-            </div>
-          </div>
+        </div>
+        <div class="card-footer text-muted">
+          Publicado el 16 de Enero de 2019
+        </div>
       </div>
+
+      <!-- Entradas del blog -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="img-fluid rounded" src="img/salida-cella-caude.JPG" alt="Miniatura ruta Cella - Caudé">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="card-title">Cella - Caudé</h2>
+              <p class="card-text">
+                <strong>Fecha </strong>13/01/2019<br>
+                <strong>Hora </strong>9:30 h<br>
+                <strong>Lugar </strong>Cella (Plaza Mayor)<br>
+                <strong>Distancia </strong>12,8 Km (ida)<br>
+                <strong>Dificultad </strong>Fácil<br>
+                <strong>Duración </strong>40 min (ida)<br>
+                <strong>Disciplina </strong>Carretera<br>
+              </p>
+              <a href="salida-cella-caude.html" class="btn btn-primary">Leer más&rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer text-muted">
+          Publicado el 9 de Enero de 2019
+        </div>
+      </div>
+
+      <!-- Entradas del blog -->
+      <div class="card mb-4">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="img-fluid rounded" src="img/salida-cella-sanblas-villastar.JPG" alt="Miniatura ruta Cella - San Blas - Villastar">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="card-title">Cella - San Blas - Villastar</h2>
+              <p class="card-text">
+                <strong>Fecha </strong>23/12/2018<br>
+                <strong>Hora </strong>9 h<br>
+                <strong>Lugar </strong>Cella (Plaza Mayor)<br>
+                <strong>Distancia </strong>31,3 Km (ida)<br>
+                <strong>Dificultad </strong>Media<br>
+                <strong>Duración </strong>1 h 36 min (ida)<br>
+                <strong>Disciplina </strong>Montaña<br>
+              </p>
+              <a href="salida-cella-sanblas-villastar.html" class="btn btn-primary">Leer más&rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer text-muted">
+          Publicado el 19 de Diciembre de 2018
+        </div>
+      </div>
+
+      <!-- Paginación -->
+      <ul class="pagination justify-content-center mb-4">
+        <li class="page-item">
+          <a class="page-link" href="salidas-antiguas.html">&larr; Antiguas</a>
+        </li>
+        <li class="page-item disabled">
+          <a class="page-link">Nuevas &rarr;</a>
+        </li>
+      </ul>
+
     </div>
-    <!-- /.container -->
+    <!-- /.container -->  
 
     <!-- Footer -->    
     <footer class="py-5 bg-dark footer-dark">
@@ -182,13 +205,10 @@
     <!-- /.footer -->
 
     <!-- JAVASCRIPT -->
-    <!-- Bootstrap núcleo JavaScript -->
+    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Galeria JavaScript (BaguetteBox) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-    <script src="js/galeria.js"></script>
-    
+
   </body>
 
 </html>
