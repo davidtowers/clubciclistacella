@@ -1,11 +1,12 @@
-
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+/**
+ * Fichero: estilo-club-ciclista-cella.css;
+ * Autor:	David Torres Sánchez;
+ * Descripción: Fichero encargado de dar el estilo que no da bootstrap por defecto. Contiene código Bootstrap bajo licencia MIT;
+ * Versión: 13;
+ * Fecha última modificación:	28/01/2019;
  */
 
-/* INDEX  y FOOTER COMÚN */
+/* INDEX y FOOTER COMÚN */
 body {
   padding-top: 54px;
 }
@@ -16,7 +17,7 @@ body {
   }
 }
 
-/* Formatodel carrusel de fotos */
+/* Formato del carrusel de fotos */
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -43,7 +44,7 @@ div.carrusel-4 {
   background-image: url(../img/carrusel4.jpg);
 }
 
-/* Margen entre eventos */
+/* Margen entre Eventos */
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -52,11 +53,6 @@ div.carrusel-4 {
 #logo-titulo {
   width: 42px;
   height: 42px;
-}
-
-/* Botón arriba */
-a.boton-arriba {
-  color: transparent;
 }
 
 /* Footer */ 
@@ -93,13 +89,13 @@ a.boton-arriba {
   text-align: center;
   border-radius: 50%;
   box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
-  margin: 0 9px;
+  margin: 0 7px;
   color: #fff;
   opacity: 0.85;
 }
 
 a.facebook:hover {
-  background-color: #3b5ea5; /* Facebook teniendo en cuenta fondo*/
+  background-color: #3b5ea5; /* Facebook */
 }/*color de fondo:#353A40*/
 
 a.twitter:hover {
@@ -121,50 +117,33 @@ a.youtube:hover {
   opacity: 0.7
 }
 
-
-
-/* EVENTOS */
-body {/*Repetido*/
-  padding-top: 54px;
-}
-
-@media (min-width: 992px) {/*Repetido*/
-  body {
-    padding-top: 56px;
-  }
-}
-
-.portfolio-item {/*Repetido*/
-  margin-bottom: 30px;
-}
-
+/* RUTAS */
 .pagination {
   margin-bottom: 30px;
 }
 
-
-
-
 /* GALERÍA */
-body {/*Repetido*/
-  padding-top: 54px;
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
-@media (min-width: 992px) {/*Repetido*/
-  body {
-    padding-top: 56px;
-  }
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.06);
+    box-shadow: 0 15px 15px rgba(0,0,0,0.3);
 }
 
-
-
-/* SOCIOS */
-body {/*Repetido*/
-  padding-top: 54px;
+.tz-gallery img {
+    border-radius: 4px;/* Esquinas inferiores */
 }
 
-@media (min-width: 992px) {/*Repetido*/
-  body {
-    padding-top: 56px;
-  }
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+/* CONTACTAR */
+.mapa {
+  width:100%;
 }
